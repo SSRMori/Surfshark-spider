@@ -129,4 +129,4 @@ if __name__ == '__main__':
     enter_manual(browser)
     config_list = get_config_list(browser)
     try_servers(config_list, browser)
-    print(".ovpn files saved in %s", download_path)
+    print("All the available .ovpn files saved in %s" % download_path)
